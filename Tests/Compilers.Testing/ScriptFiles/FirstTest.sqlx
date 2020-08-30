@@ -1,0 +1,29 @@
+﻿/*
+	En un lugar de la mancha
+*/
+declare int a = 20;
+declare int b = 50;
+
+	-- Condición sin else
+	if (a > 2) 
+	{
+		<%
+		SELECT A FROM QRT
+		%>
+	}
+
+	-- Condición con else
+	if (b < 25) 
+	{
+		<%
+		SELECT A FROM QRT
+		%>
+	}
+	else
+	{
+		set b = b - 25;
+	}
+
+	<%
+		SELECT StoreId FROM Stores
+	%>

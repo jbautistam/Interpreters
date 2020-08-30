@@ -1,0 +1,16 @@
+﻿declare int a = 20;
+declare int b = 50;
+declare int c;
+
+	sub Method(int param1, int param2)
+	{
+		return param1 + param2;
+	}
+
+	set c = Method(a, b);
+
+	call print("c1: " + c);
+
+	set c = Method(a + 5, b + 40) + 5 - 8;
+
+	call print("c2: " + c);

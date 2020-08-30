@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Bau.Libraries.LibDbScripts.Interpreter</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Common\LibLogger\src\LibLogger.Core\LibLogger.Core.csproj" />
+    <ProjectReference Include="..\..\..\Core\LibInterpreter.Interpreter\LibInterpreter.Interpreter.csproj" />
+    <ProjectReference Include="..\..\..\Core\LibInterpreter.Lexer\LibInterpreter.Lexer.csproj" />
+    <ProjectReference Include="..\..\..\Core\LibInterpreter.Models\LibInterpreter.Models.csproj" />
+  </ItemGroup>
+
+</Project>
